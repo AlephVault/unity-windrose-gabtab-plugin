@@ -1,0 +1,18 @@
+{
+    "name": "GameMeanMachine.Unity.WindRose.GabTab.Editor",
+    "references": [
+        "GameMeanMachine.Unity.WindRose.GabTab.Runtime",
+        "AlephVault.Unity.MenuActions.Editor",
+        "AlephVault.Unity.Layout.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
