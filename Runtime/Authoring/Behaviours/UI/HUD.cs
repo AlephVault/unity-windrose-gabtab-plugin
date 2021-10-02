@@ -219,11 +219,21 @@ namespace GameMeanMachine.Unity.WindRose.GabTab
                         if (pauseType != PauseType.NO)
                         {
                             bool fullFreeze = pauseType == PauseType.FREEZE;
-                            foreach (Map map in (from obj in SceneManager.GetActiveScene().GetRootGameObjects() select obj.GetComponent<Map>()))
+                            foreach (Map map in from obj in SceneManager.GetActiveScene().GetRootGameObjects() select obj.GetComponent<Map>())
                             {
                                 if (map)
                                 {
                                     map.Pause(fullFreeze);
+                                }
+                            }
+                            foreach (Scope scope in from obj in SceneManager.GetActiveScene().GetRootGameObjects() select obj.GetComponent<Scope>())
+                            {
+                                if (scope)
+                                {
+                                    foreach (Map map in scope)
+                                    {
+                                        map.Pause(fullFreeze);
+                                    }
                                 }
                             }
                         }
@@ -238,6 +248,16 @@ namespace GameMeanMachine.Unity.WindRose.GabTab
                                 if (map)
                                 {
                                     map.Resume();
+                                }
+                            }
+                            foreach (Scope scope in from obj in SceneManager.GetActiveScene().GetRootGameObjects() select obj.GetComponent<Scope>())
+                            {
+                                if (scope)
+                                {
+                                    foreach (Map map in scope)
+                                    {
+                                        map.Resume();
+                                    }
                                 }
                             }
                         }
