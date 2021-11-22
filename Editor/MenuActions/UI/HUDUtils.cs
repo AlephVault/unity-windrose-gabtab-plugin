@@ -70,7 +70,6 @@ namespace GameMeanMachine.Unity.WindRose
                         if (contentRect.size != Vector2.zero)
                         {
                             minSize = contentRect.max + contentRect.min;
-                            maxSize = minSize;
                         }
                     }
 
@@ -110,8 +109,7 @@ namespace GameMeanMachine.Unity.WindRose
                 public static void CreateHUD()
                 {
                     CreateHUDWindow window = ScriptableObject.CreateInstance<CreateHUDWindow>();
-                    window.maxSize = new Vector2(550, 196);
-                    window.minSize = window.maxSize;
+                    window.minSize = new Vector2(550, 196);
                     window.ShowUtility();
                 }
 
