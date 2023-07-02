@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.WindRose.GabTab
+namespace AlephVault.Unity.WindRose.GabTab
 {
     namespace Authoring
     {
@@ -10,12 +10,12 @@ namespace GameMeanMachine.Unity.WindRose.GabTab
         {
             namespace UI
             {
-                using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
-                using GameMeanMachine.Unity.GabTab.Authoring.Behaviours.Interactors;
+                using AlephVault.Unity.GabTab.Authoring.Behaviours;
+                using AlephVault.Unity.GabTab.Authoring.Behaviours.Interactors;
                 using System.Threading.Tasks;
                 using Types;
                 using UnityEngine.SceneManagement;
-                using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
+                using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
 
                 /// <summary>
                 ///   A HUDLinker allows a <see cref="MapObject"/> to execute

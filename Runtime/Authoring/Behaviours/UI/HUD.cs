@@ -2,11 +2,11 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
-using GameMeanMachine.Unity.GabTab.Authoring.Behaviours.Interactors;
+using AlephVault.Unity.GabTab.Authoring.Behaviours;
+using AlephVault.Unity.GabTab.Authoring.Behaviours.Interactors;
 using AlephVault.Unity.Support.Utils;
 
-namespace GameMeanMachine.Unity.WindRose.GabTab
+namespace AlephVault.Unity.WindRose.GabTab
 {
     namespace Authoring
     {
@@ -14,8 +14,8 @@ namespace GameMeanMachine.Unity.WindRose.GabTab
         {
             namespace UI
             {
-                using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World;
-                using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
+                using AlephVault.Unity.WindRose.Authoring.Behaviours.World;
+                using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
                 using System.Threading.Tasks;
 
                 /// <summary>

@@ -1,8 +1,8 @@
 {
-    "name": "GameMeanMachine.Unity.WindRose.GabTab.Runtime",
+    "name": "AlephVault.Unity.WindRose.GabTab.Runtime",
     "references": [
-        "GameMeanMachine.Unity.WindRose.Runtime",
-        "GameMeanMachine.Unity.GabTab.Runtime",
+        "AlephVault.Unity.WindRose.Runtime",
+        "AlephVault.Unity.GabTab.Runtime",
         "AlephVault.Unity.Support.Runtime"
     ],
     "optionalUnityReferences": [],

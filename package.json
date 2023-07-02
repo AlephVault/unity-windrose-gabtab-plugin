@@ -1,19 +1,19 @@
 {
-  "name": "com.gamemeanmachine.unity.windrose-gabtab",
+  "name": "com.alephvault.unity.windrose-gabtab",
   "version": "0.0.1",
-  "displayName": "Game Mean Machine - Unity - WindRose/GabTab integration",
+  "displayName": "Aleph Vault - Unity - WindRose/GabTab integration",
   "description": "Allows the developer to connect GabTab into WindRose (e.g. by pausing the entire map(s) while a GabTab widget is running/visible).",
   "unity": "2018.1",
   "dependencies": {
     "com.alephvault.unity.support": "0.0.1",
     "com.alephvault.unity.layout": "0.0.1",
     "com.alephvault.unity.menuactions": "0.0.1",
-    "com.gamemeanmachine.unity.windrose": "0.0.1",
-    "com.gamemeanmachine.unity.gabtab": "0.0.1"
+    "com.alephvault.unity.windrose": "0.0.1",
+    "com.alephvault.unity.gabtab": "0.0.1"
   },
   "author": {
-    "name": "Game Mean Machine",
-    "email": "info@gamemeanmachine.com",
-    "url": "http://www.gamemeanmachine.com"
+    "name": "Aleph Vault",
+    "email": "info@alephvault.com",
+    "url": "http://www.alephvault.com"
   }
 }

@@ -1,7 +1,7 @@
 {
-    "name": "GameMeanMachine.Unity.WindRose.GabTab.Editor",
+    "name": "AlephVault.Unity.WindRose.GabTab.Editor",
     "references": [
-        "GameMeanMachine.Unity.WindRose.GabTab.Runtime",
+        "AlephVault.Unity.WindRose.GabTab.Runtime",
         "AlephVault.Unity.MenuActions.Editor",
         "AlephVault.Unity.Layout.Runtime"
     ],
